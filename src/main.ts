@@ -6,6 +6,7 @@ import store from "./store/index";
 import upperFirst from "lodash/upperFirst";
 import camelCase from "lodash/camelCase";
 import Datepicker from "vuejs-datepicker";
+import "nprogress/nprogress.css";
 
 Vue.component("datepicker", Datepicker);
 
